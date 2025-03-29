@@ -2,7 +2,7 @@
 
 source ../defaults.sh
 
-WORKFLOW_ID="676fsb98-5850-11e8-bf16-14109fe12bfb"
+WORKFLOW_ID=${WORKFLOW_ID:-"676fsb98-5850-11e8-bf16-14109fe12bfb"}
 TRIGGER_NAME="my_git_pull"
 
 URL="$SITUATE_URL/workflows/$WORKFLOW_ID?trigger=$TRIGGER_NAME"

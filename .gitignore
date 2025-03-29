@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.*
+*.env
+
+# Python virtual environment
+venv/
+.venv/
+
+# PyCharm configuration files
+.idea/
+*.iml
+
+# Node.js environment files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.DS_Store
+coverage/
+build/
+dist/
+*.log
+*.min.*
+
